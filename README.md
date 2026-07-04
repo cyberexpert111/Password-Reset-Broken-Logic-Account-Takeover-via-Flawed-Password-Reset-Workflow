@@ -1,0 +1,2 @@
+# Password-Reset-Broken-Logic-Account-Takeover-via-Flawed-Password-Reset-Workflow
+The application contained a broken password reset implementation that failed to properly validate the relationship between the password reset request and the intended user account. By manipulating user-controlled parameters during the reset process, it was possible to reset another user's password without proper authorization.
